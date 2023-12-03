@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'Placa do Carro:',
+                                'Placa do Automóvel:',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   color: Colors.white,
@@ -119,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 color: Colors.blue,
                                 child: Center(
                                   child: Text(
-                                    'SDD12E3',
+                                    'BRA2E19',
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                       color: Colors.white,
@@ -150,7 +150,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  'Nome: Marcelo Santos',
+                                  'Cliente: Marcelo Santos',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -162,7 +162,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  'Modelo: Civic',
+                                  'Modelo do Automóvel: Civic',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -174,7 +174,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  'Ano: 1998',
+                                  'Ano do Automóvel: 2021',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -210,7 +210,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  'Peça Utilizadas:',
+                                  'Peça Utilizada:',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -246,7 +246,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  'Custo: R\$1500.00',
+                                  'Valor: R\$400.00',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -258,7 +258,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  'Prazo: 25/10/22',
+                                  'Prazo de entrega: 15/12/2023',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -270,7 +270,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  'Observações: não inserido',
+                                  'Observação: não inserido',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
