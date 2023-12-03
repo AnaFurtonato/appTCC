@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  'Status: Em andamento',
+                                  'Status: Iniciado',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 19,
@@ -198,7 +198,19 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 40),
                                 child: Text(
-                                  '- Alinhamento',
+                                  '- Troca de Fluidos',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 17,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(height: 15),
+                              Padding(
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 20),
+                                child: Text(
+                                  'Peça Utilizadas:',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -210,7 +222,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 40),
                                 child: Text(
-                                  '- Troca de Fluídos',
+                                  '- Filtro de óleo',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -220,9 +232,9 @@ class _MyHomePageState extends State<MyHomePage> {
                               SizedBox(height: 15),
                               Padding(
                                 padding:
-                                    const EdgeInsets.symmetric(horizontal: 40),
+                                    const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
-                                  '- Serviços Elétricos',
+                                  'Quantidade de peças:  1',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
@@ -247,6 +259,18 @@ class _MyHomePageState extends State<MyHomePage> {
                                     const EdgeInsets.symmetric(horizontal: 20),
                                 child: Text(
                                   'Prazo: 25/10/22',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 17,
+                                  ),
+                                ),
+                              ),
+                              SizedBox(height: 15),
+                              Padding(
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 20),
+                                child: Text(
+                                  'Observações: não inserido',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 17,
